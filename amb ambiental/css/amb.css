@@ -1,0 +1,42 @@
+/*********************************************************************/
+/* General */
+/*********************************************************************/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	color: rgba(0,0,0, 0.9);
+	background-color: rgba(255,255,255, 1);
+}
+
+/***********************************************************/
+/* Links */
+/***********************************************************/
+a,
+.link {color: rgba(140, 195, 64, 1);}
+
+a:hover {text-decoration: underline;}
+a:visited{color: rgba(140, 195, 64, 1);}
+
+/***********************************************************/
+/* Placeholders */
+/***********************************************************/
+::-webkit-input-placeholder {color: rgba(80, 60, 40, 0.5);}
+::-moz-placeholder {color: rgba(80, 60, 40, 0.5);}
+:-ms-input-placeholder {color: rgba(80, 60, 40, 0.5);}
+
+/***********************************************************/
+/* Usefull */
+/***********************************************************/
+.hide {display: none!important;}
+
+.vhide {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0 0 0 0) !important;
+}
+
