@@ -78,6 +78,22 @@ a:visited{color: rgba(140, 195, 64, 1);}
 	cursor: pointer;
 }
 
-.mainMenu li:hover {
-	background-color: rgba(255,255,255, 0.4);
+.mainMenu li:hover {background-color: rgba(255,255,255, 0.4);}
+
+/*********************************************************************/
+/* .intro */
+/*********************************************************************/
+.intro .featured  {
+	position: relative;
+	height: 555px;
+	/* max-width: 1200px;*/
+	margin: 0 auto 50px auto;
+	overflow: hidden;
+}
+
+.intro .featured > img {
+	position: absolute;
+	top: -40%;
+	width: 100%;
+
 }
